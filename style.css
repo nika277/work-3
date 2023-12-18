@@ -1,0 +1,48 @@
+.geoflag{
+    width: 200px;
+    position: absolute;
+    animation-name: geoflag;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.europflag{
+    width: 200px;
+    position: absolute;
+    animation-name: europflag;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes geoflag {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    50% {
+      left: 200px;
+      top: 200px;
+    }
+    100% {
+      left: 400px;
+      top: 400px;
+    }
+}
+@keyframes europflag {
+    0% {
+        right: 0%;
+        top: 0%;
+    }
+    50% {
+        right: 200px;
+        top: 200px;
+    }
+    100% {
+        right: 400px;
+        top: 400px;
+    }
+}
